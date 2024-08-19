@@ -3,7 +3,7 @@ using System.Globalization;
 namespace shur_excel;
 
 public class Row
-{   
+{
     public Dictionary<string, Element> Elements { get; private set; }
     public DateTime DateTime { get; }
 
@@ -17,7 +17,7 @@ public class Row
             var itemPair = Program.configElements.FirstOrDefault(c => c.Value.NumFrom == i);
             if (itemPair.Key == null) { continue; }
             Element element = itemPair.Value.Clone();
-            element.Value = double.Parse(columns[i]);            
+            element.Value = double.Parse(columns[i]);
             Elements.Add(itemPair.Key, element);
         }
     }

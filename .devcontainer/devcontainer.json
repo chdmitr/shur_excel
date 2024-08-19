@@ -14,7 +14,8 @@
 				"streetsidesoftware.code-spell-checker",
 				"ms-dotnettools.csdevkit",
 				"ms-dotnettools.csharp",
-				"ms-dotnettools.vscodeintellicode-csharp"
+				"ms-dotnettools.vscodeintellicode-csharp",
+				"spacegray.editorconfig-dev"
 			]
 		}
 	}

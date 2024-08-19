@@ -9,7 +9,7 @@ public class Element
     public double LowerBound { get; }
     public double UpperBound { get; }
     public double Value { get; set; }
-    
+
     public Element(int numFrom, int numTo, double lowerBound, double upperBound, double value = 0.0)
     {
         NumFrom = numFrom;
