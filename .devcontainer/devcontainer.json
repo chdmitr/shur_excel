@@ -15,7 +15,8 @@
 				"ms-dotnettools.csdevkit",
 				"ms-dotnettools.csharp",
 				"ms-dotnettools.vscodeintellicode-csharp",
-				"spacegray.editorconfig-dev"
+				"spacegray.editorconfig-dev",
+				"mhutchie.git-graph"
 			]
 		}
 	}
